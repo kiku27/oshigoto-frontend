@@ -1,16 +1,18 @@
-# React + Vite
+アプリケーション名…推しごと
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+アプリケーションの概要 推しのスケジュールを一元管理できるアプリです。
 
-Currently, two official plugins are available:
+開発した背景・想い 推し活に励む方たちに向け、推しのイベントやグッズ販売情報を一目でわかるようにし、見逃しをなくしたいと思ったため開発しました。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+リポジトリURL
+フロントエンド: (https://github.com/kiku27/oshigoto-frontend)
+バックエンド: 　(https://github.com/kiku27/oshigoto-backend)
 
-## React Compiler
+主な使用技術（技術スタック）
+Frontend: React, Vite, JavaScript / TypeScript
+Backend: Java, Spring Boot
+Database: PostgreSQL
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+機能紹介・画面
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ログイン画面
